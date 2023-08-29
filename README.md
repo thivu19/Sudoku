@@ -1,5 +1,5 @@
 # Sudoku
 
-# A simple puzzle game of Sudoku using Python.
+A simple puzzle game of Sudoku using Python.
 
-# - Install pygame to start the project.
+- Install pygame to start the project.
