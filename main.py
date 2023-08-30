@@ -85,7 +85,7 @@ def solvegame(defaultgrid, i, j):
     while defaultgrid[i][j] != 0:
         if i < 8:
             i += 1
-        elif i == 8 and j<8:
+        elif i == 8 and j < 8:
             i = 0
             j += 1
         elif i == 8 and j == 8:
@@ -207,11 +207,11 @@ while flag:
         flag2 = 0   
     if value != 0:           
         fillvalue(value)
-        if validvalue(defaultgrid , int(x), int(z), value)== True:
-            defaultgrid[int(x)][int(z)]= value
+        if validvalue(defaultgrid , int(x), int(z), value) == True:
+            defaultgrid[int(x)][int(z)] = value
             flag1 = 0
         else:
-            defaultgrid[int(x)][int(z)]= 0
+            defaultgrid[int(x)][int(z)] = 0
             raiseerror1()  
         value = 0   
        
